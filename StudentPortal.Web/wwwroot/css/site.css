@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  
 }
 
 @media (min-width: 768px) {
@@ -79,4 +80,29 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 900;
     font-style: italic;
+}
+
+.footerHeader{
+    color: #FF980A;
+}
+
+.footerLists {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.footerLists li {
+    padding-top:5px;
+    color: #d9d9d9;
+    margin-right: 10px;
+    align-items: center
+}
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 90px
 }

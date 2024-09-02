@@ -74,17 +74,49 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div style="display: flex; flex-direction:column ">
-            <div style="display: flex; flex-direction:row ">
-                <div> 
-                    <h5>Usefull Links</h5>
+        <div style="display: flex; flex-direction:column; width:100%">
+            <div class="footerContainer" style="">
+                <div>
+                    <a asp-area="" asp-controller="Home" asp-action="Index">
+                        <img src="~/images/logo.png" width="150px" height="150px"/>
+                    </a>
                 </div>
-            <div><h5>Contact DigiSkills</h5></div>
-            <div><h5>Follow Us</h5></div>
+                <div> 
+                    <h4 class="footerHeader">Usefull Links</h4>
+                    <ul class="footerLists">
+                        <li>Courses</li>
+                        <li>Success Stories</li>
+                        <li>Blog</li>
+                        <li>Story of the Month</li>
+                        <li>Contact Us</li>
+                    </ul>
+                    <ul class="footerLists">
+                        <li>News and Events</li>
+                        <li>FAQs</li>
+                        <li>How it Works</li>
+                        <li>Reflextions</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footerHeader">Contact DigiSkills</h4>
+                    <ul class="footerLists">
+                        <li>Phone: <span><i class="fa-solid fa-phone"></i> 03244480480 </span> </li>
+                        <li>Email: <span><i class="fa-regular fa-envelope"></i> ammar@gmail.com </span> </li>
+                   </ul>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <h4 class="footerHeader">Follow Us</h4>
+                    <ul class="footerLists">
+                        <li>Phone: <span><i class="fa-solid fa-phone"></i> 03244480480 </span> </li>
+                        <li>Email: <span><i class="fa-regular fa-envelope"></i> ammar@gmail.com </span> </li>
+                    </ul>
+                </div>
             </div>
-        <div class="container">
-            &copy; 2024 - StudentPortal.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+            <div class="col-lg-12" style="height: 80px; color:#d9d9d9; text-align:center">
+            <hr style="color:#d9d9d9;" />
+                Copyright &copy; 2024 - <span style="color: #FF980A !important">StudentPortal.Web.</span>  All Rights Reserved.
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

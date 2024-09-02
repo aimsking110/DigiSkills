@@ -49,14 +49,14 @@ button.accept-policy {
 }
 
 .footer {
-    background: black;
+    background: #191919;
     display: flex;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    font-family: 'Lato', sans-serif;
 }
 .text-muted {
     color: white;
 }
+
